@@ -1,0 +1,20 @@
+{
+  "name": "PHP & MySQL (Codespaces)",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {
+      "version": "latest",
+      "databaseName": "Eventeen"
+    }
+  },
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo docker run --name phpmyadmin -d --link chmod-mysql-server-placeholder:db -p 8080:80 phpmyadmin/phpmyadmin || true"
+}
