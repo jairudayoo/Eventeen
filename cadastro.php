@@ -20,7 +20,7 @@
                 <p class="subtitulo">Seu acesso aos eventos acadêmicos.</p>
             </header>
 
-            <form class="auth-form" action="#" method="post">
+            <form class="auth-form" action="inicio-participante.php" method="post">
                 <div class="campo">
                     <label for="nome">Nome completo</label>
                     <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Digite seu nome completo" required>

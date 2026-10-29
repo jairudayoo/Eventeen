@@ -24,7 +24,7 @@
                 <p class="subtitulo">Eventos acadêmicos em um só lugar.</p>
             </header>
 
-            <form class="auth-form" action="#" method="post">
+            <form class="auth-form" action="inicio-participante.php" method="post">
                 <div class="campo">
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" autocomplete="email" placeholder="seuemail@exemplo.com" required>
