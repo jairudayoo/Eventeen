@@ -1,5 +1,6 @@
-<!-- buceta; Edu esteve aqui 2 -->
+<!-- Vitor; Edu esteve aqui -->
  <!-- Gustavinho do grau esteve aq -->
+<!-- Jair Bolsonaro esteve aq -->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
